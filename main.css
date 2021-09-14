@@ -1,0 +1,103 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    background-color: #111;
+
+}
+h1{
+    font-size: 3rem;
+    font-weight: 58;
+    margin: 1rem 0  3rem;
+    text-align: center;
+    color: #fff;
+    font-family: 'Hind', sans-serif;
+}
+.title{
+ font-weight: 800;
+ color:blue;
+}
+.inputDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.input{
+     border-radius: 15px; 
+     font-size: 20px;
+    height: 50px;
+    width: 30%;
+}
+.inputDiv.input{
+    padding: 0.5rem;
+    height: 50px;
+    outline: none;
+    background-color: #fff;
+    width: 450px;
+    font-size: 30px;
+    margin: 0.25rem;
+    /* border-radius: 25px; */
+
+}
+.add{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    color:#fff;
+    margin: 0.25rem;
+    background-color:blue;
+    cursor: pointer;
+    transition: 5s;
+}
+.add:hover{
+    opacity: 0.7;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+.item{
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 4px solid #fff;
+
+}
+.item-input{
+    background: none;
+    outline: none;
+    color: #fff;
+    border: none;
+    width: 350px;
+    font-size: 1.4rem;
+}
+.editButton{
+    font-size: 1.4rem;
+    margin: 0 0.5rem;
+    font-family: 'Hindi' sans-serif;
+    background: none;
+    outline: none;
+    color:blue ;
+    border: none;
+    cursor: pointer;
+}
+.removeButton{
+    font-size: 1.4rem;
+    margin: 0 0.5rem;
+    font-family: 'Hindi' sans-serif;
+    background: none;
+    outline: none;
+    color:#E00;
+    border: none;  
+    cursor: pointer;
+}
